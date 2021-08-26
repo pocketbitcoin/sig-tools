@@ -1,0 +1,40 @@
+{
+  "name": "@bitkipi/sig-tools",
+  "version": "1.0.0",
+  "description": "Utility functions to create and verify signatures",
+  "keywords": [
+    "sig",
+    "hmac",
+    "webhooks"
+  ],
+  "author": "Alessandro Arnodo <alessandro@arnodo.net>",
+  "homepage": "https://github.com/bitkipi/sig-tools",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitkipi/sig-tools.git"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "test": "uvu src \".test.ts$\" -r ts-node/register",
+    "ncu": "ncu -i",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "bugs": {
+    "url": "https://github.com/bitkipi/sig-tools/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.2",
+    "conventional-changelog-cli": "^2.1.1",
+    "npm-check-updates": "^11.8.3",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5",
+    "uvu": "^0.5.1"
+  }
+}
