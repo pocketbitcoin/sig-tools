@@ -18,6 +18,10 @@
     "type": "git",
     "url": "git+https://github.com/bitkipi/sig-tools.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc",
