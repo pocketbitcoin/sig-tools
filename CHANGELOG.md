@@ -1,4 +1,4 @@
-## [1.0.1](https://github.com/pocketbitcoin/sig-tools/compare/v1.0.0...v1.0.1) (2023-01-19)
+# [2.0.0](https://github.com/pocketbitcoin/sig-tools/compare/v1.0.0...v2.0.0) (2023-11-11)
 
 - @pocketbitcoin
 
