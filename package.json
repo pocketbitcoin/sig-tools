@@ -1,14 +1,14 @@
 {
-  "name": "@bitkipi/sig-tools",
-  "version": "1.0.0",
+  "name": "@pocketbitcoin/sig-tools",
+  "version": "2.0.0",
   "description": "Utility functions to create and verify signatures",
   "keywords": [
     "sig",
     "hmac",
     "webhooks"
   ],
-  "author": "Alessandro Arnodo <alessandro@arnodo.net>",
-  "homepage": "https://github.com/bitkipi/sig-tools",
+  "author": "Alessandro Arnodo <vesparny@icloud.com>",
+  "homepage": "https://github.com/pocketbitcoin/sig-tools",
   "license": "MIT",
   "main": "dist/index.js",
   "files": [
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bitkipi/sig-tools.git"
+    "url": "git+https://github.com/pocketbitcoin/sig-tools.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
@@ -31,14 +31,14 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "bugs": {
-    "url": "https://github.com/bitkipi/sig-tools/issues"
+    "url": "https://github.com/pocketbitcoin/sig-tools/issues"
   },
   "devDependencies": {
-    "@types/node": "^16.7.2",
-    "conventional-changelog-cli": "^2.1.1",
-    "npm-check-updates": "^11.8.3",
-    "ts-node": "^10.2.1",
-    "typescript": "^4.3.5",
-    "uvu": "^0.5.1"
+    "@types/node": "^20.9.0",
+    "conventional-changelog-cli": "^4.1.0",
+    "npm-check-updates": "^16.14.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "uvu": "^0.5.6"
   }
 }

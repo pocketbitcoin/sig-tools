@@ -7,18 +7,18 @@ Very useful to secure webhooks endpoints.
 Inspired by [GitHub's Webhook implementation](https://docs.github.com/en/developers/webhooks-and-events/webhooks/securing-your-webhooks), the library lets you:
 
 - create a hash signature of each request payload (using a HMAC hex digest) to be sent via HTTP header
-- verify the validity of a signature  
+- verify the validity of a signature
 
 ## Install
 
 ```sh
-$ npm install --save @bitkipi/sig-tools
+$ npm install --save @pocketbitcoin/sig-tools
 ```
 
 ## Usage
 
 ```js
-import { createSignature, isSignatureValid } from '@bitkipi/sig-tools'
+import { createSignature, isSignatureValid } from '@pocketbitcoin/sig-tools'
 
 const SECRET = 'MY SECRET KEY'
 
